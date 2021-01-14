@@ -1,7 +1,7 @@
 import redis
 from flask import Flask
 app = Flask(__name__)
-redis = redis.Redis(host=104.154.19.71, port=30001, db=0)
+redis = redis.Redis(host=104.154.182.242, port=30005, db=0)
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
